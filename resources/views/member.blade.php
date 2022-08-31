@@ -3,7 +3,7 @@
   <?php
   $data = DB::table('users')->get('name');
   foreach ($data as $key => $value) {
-   echo($value->name."<br>"); 
+   echo($value->name."<br>");
   }  
   ?>
 </x-layout>

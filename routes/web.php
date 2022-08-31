@@ -26,13 +26,6 @@ Route::group(['middleware'=> 'auth:api'], function (){
 });
 
 
-// All Listings
-// Route::get('/', function (){
-//     return view('listings', [
-//         'heading' => 'Latest Listings',
-//         'listings' => Listing::all()
-//     ]);
-// });
 
 // Show Member
 Route::get('/member', function() {
